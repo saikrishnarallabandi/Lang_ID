@@ -1,0 +1,10 @@
+nohup: ignoring input
+utils/subset_data_dir.sh: reducing #utt from 109926 to 500
+lid/train_diag_ubm.sh --nj 30 --cmd run.pl --mem 2G data/train_500 1024 exp/diag_ubm_500_1024
+lid/train_diag_ubm.sh: initializing model from E-M in memory, 
+lid/train_diag_ubm.sh: starting from 512 Gaussians, reaching 1024;
+lid/train_diag_ubm.sh: for 20 iterations, using at most 500000 frames of data
+Getting Gaussian-selection info
+bash: line 1: 20454 Aborted                 ( gmm-gselect --n=30 exp/diag_ubm_500_1024/0.dubm "ark,s,cs:apply-cmvn-sliding --norm-vars=false --center=true --cmn-window=300 scp:data/train_500/split30/5/feats.scp ark:- | add-deltas-sdc ark:- ark:- | select-voiced-frames ark:- scp,s,cs:data/train_500/split30/5/vad.scp ark:- | subsample-feats --n=5 ark:- ark:- |" "ark:|gzip -c >exp/diag_ubm_500_1024/gselect.5.gz" ) 2>> exp/diag_ubm_500_1024/log/gselect.5.log >> exp/diag_ubm_500_1024/log/gselect.5.log
+bash: line 1: 20886 Aborted                 ( gmm-gselect --n=30 exp/diag_ubm_500_1024/0.dubm "ark,s,cs:apply-cmvn-sliding --norm-vars=false --center=true --cmn-window=300 scp:data/train_500/split30/30/feats.scp ark:- | add-deltas-sdc ark:- ark:- | select-voiced-frames ark:- scp,s,cs:data/train_500/split30/30/vad.scp ark:- | subsample-feats --n=5 ark:- ark:- |" "ark:|gzip -c >exp/diag_ubm_500_1024/gselect.30.gz" ) 2>> exp/diag_ubm_500_1024/log/gselect.30.log >> exp/diag_ubm_500_1024/log/gselect.30.log
+run.pl: 2 / 30 failed, log is in exp/diag_ubm_500_1024/log/gselect.*.log

@@ -1,0 +1,18 @@
+lid/train_ivector_extractor.sh --cmd run.pl --mem 2G --mem 2G --num-iters 5 exp/full_ubm_1024/final.ubm data/train exp/extractor_1024
+lid/train_ivector_extractor.sh: doing Gaussian selection and posterior computation
+Accumulating stats (pass 0)
+run.pl: job failed, log is in exp/extractor_1024/log/acc.0.4.log
+run.pl: job failed, log is in exp/extractor_1024/log/acc.0.1.log
+run.pl: job failed, log is in exp/extractor_1024/log/acc.0.6.log
+run.pl: job failed, log is in exp/extractor_1024/log/acc.0.3.log
+run.pl: job failed, log is in exp/extractor_1024/log/acc.0.2.log
+run.pl: job failed, log is in exp/extractor_1024/log/acc.0.7.log
+run.pl: job failed, log is in exp/extractor_1024/log/acc.0.8.log
+run.pl: job failed, log is in exp/extractor_1024/log/acc.0.5.log
+run.pl: job failed, log is in exp/extractor_1024/log/acc.0.9.log
+run.pl: job failed, log is in exp/extractor_1024/log/acc.0.10.log
+Error accumulating stats on iteration 0
+lid/extract_ivectors.sh --cmd run.pl --mem 2G --mem 3G --nj 50 exp/extractor_1024 data/train exp/ivectors_train
+No such file exp/extractor_1024/final.ie
+Could not open id-list file exp/ivectors_train/ivector.scp at utils/filter_scp.pl line 57.
+readline() on closed filehandle LANGUAGES at lid/balance_priors_to_test.pl line 60.

@@ -1,0 +1,64 @@
+import sys
+from os import path
+
+
+old_labelcounts_fname=sys.argv[1]
+new_labelcounts_fname=sys.argv[2]
+mapping_fname=sys.argv[3]
+new_labelcounts_length=sys.argv[4]
+combine_type=sys.argv[4]
+
+mapping_file=open(mapping_fname, 'r')
+map = []
+for f in mapping_file.readlines():
+  map.append(int(f.replace('\n', '').split(' ')[1]))
+
+
+
+old_labelcounts = open(old_labelcounts_fname, 'r')
+new_labelcounts = open(new_labelcounts_fname, 'w+')
+
+l = (old_labelcounts.readlines()[0]).split()[1:-1]
+
+print "old label counts are " + str(l)
+
+print "length of new labels should be " + str(int(new_labelcounts_length))
+
+print "HERE"
+if len(l) == int(new_labelcounts_length):
+	print "BEEN THERE"
+
+
+
+#nl = [l[0]] * int(new_labelcounts_length)
+nl = [0] * int(new_labelcounts_length)
+
+#nl[0] = 1
+#if combine_type == "agg":
+#nl[0] = l[0]
+
+
+#nl[0] = 6118196
+
+print len(l)
+print len(nl)
+
+for i in range(1, len(l)):
+#	nl[map[i-1]] = 1
+	nl[map[i-1]] = str(int(l[i]))
+
+for i in range(len(nl)):
+	if nl[i] != 0:
+		nl[i-1] = l[0]
+		break
+
+	
+print "new label counts are " + str(nl)
+
+new_labelcounts.write("[ ")
+
+for nl_ in nl:
+	new_labelcounts.write(str(nl_) + " ");
+
+new_labelcounts.write(" ]")
+

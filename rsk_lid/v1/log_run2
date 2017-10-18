@@ -1,0 +1,6 @@
+nohup: ignoring input
+steps/make_mfcc.sh --mfcc-config conf/mfcc_vtln.conf --nj 100 --cmd run.pl --mem 2G data/train_novtln exp/make_mfcc /data/ASR5/srallaba/kaldi/egs/rsk_lid/v1/mfcc
+utils/validate_data_dir.sh: Successfully validated data-directory data/train_novtln
+steps/make_mfcc.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+Succeeded creating MFCC features for train_novtln
+run.sh: line 51: lid/compute_vad_decision.sh: No such file or directory
