@@ -1,32 +1,25 @@
+lang=$1
 
 # Source the kaldi path
-. path.sh
-mfcc_folder=${KALDI_ROOT}/egs/voxforge/s5/mfcc_spanish
+mfcc_folder=${KALDI_ROOT}/egs/voxforge/s5/mfcc_${lang}
 
-rm -r ../data/spanish/cleaned/*
-rm -r ../data/spanish/raw/*
 
-mkdir -p ../data/spanish
-mkdir -p ../data/spanish/cleaned
-mkdir -p ../data/spanish/raw
+rm -r ../data/${lang}/cleaned/*
+rm -r ../data/${lang}/raw/*
+
+mkdir -p ../data/${lang}
+mkdir -p ../data/${lang}/cleaned
+mkdir -p ../data/${lang}/raw
 
 # Get the mfccs and accomodate in a single file
 for file in ${mfcc_folder}/*.ark
 do
  fname=$(basename "$file" .ark)
- cat $mfcc_folder/${fname}.scp | while read f
+ cat ${mfcc_folder}/${fname}.scp | while read f
  do
    n=`echo "${f}" | cut -d ' ' -f 1`
-   echo $f | copy-feats scp:- ark,t:- > ../data/spanish/raw/${n}.mfcc
-   cat ../data/spanish/raw/${n}.mfcc | sed '/\[$/d' | sed 's/]//g' > ../data/spanish/cleaned/${n}.mfcc
+   echo $f | copy-feats scp:- ark,t:- | add-deltas ark:- ark,t:- > ../data/${lang}/raw/${n}.mfcc
+   cat ../data/${lang}/raw/${n}.mfcc | sed '/\[$/d' | sed 's/]//g' > ../data/${lang}/cleaned/${n}.mfcc
  done
 done 
 
-# Remove the extra information and get only frames
-#cat t_spanish | sed '/\[$/d' | sed 's/]//g' > t_cleaned_spanish.txt
-
-# Put the labels
-#cat t_cleaned_spanish.txt | while read line
-#do
-# echo 1 >> t_labels_spanish
-#done
