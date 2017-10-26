@@ -1,0 +1,540 @@
+  Loss at epoch  0  after  109  of  1350  examples is  1.09575936882
+  Loss at epoch  0  after  217  of  1350  examples is  1.06494058415
+  Loss at epoch  0  after  325  of  1350  examples is  1.05832429354
+  Loss at epoch  0  after  433  of  1350  examples is  1.03453267502
+  Loss at epoch  0  after  541  of  1350  examples is  1.01918373619
+  Loss at epoch  0  after  649  of  1350  examples is  1.01377686541
+  Loss at epoch  0  after  757  of  1350  examples is  0.999389636627
+  Loss at epoch  0  after  865  of  1350  examples is  0.977603515931
+  Loss at epoch  0  after  973  of  1350  examples is  0.966448795391
+  Loss at epoch  0  after  1081  of  1350  examples is  0.95172622968
+  Loss at epoch  0  after  1189  of  1350  examples is  0.93098639334
+  Loss at epoch  0  after  1297  of  1350  examples is  0.922332826953
+Reconstruction Loss after epoch  0  :  0.000213501984591
+Total Loss:  0.914843896532
+           Test Accuracy:   0.66
+           Confusion Matrix:  [[20 21  9]
+ [ 7 34  9]
+ [ 3  2 45]]
+  Loss at epoch  1  after  109  of  1350  examples is  0.720770985982
+  Loss at epoch  1  after  217  of  1350  examples is  0.700383111766
+  Loss at epoch  1  after  325  of  1350  examples is  0.68745772536
+  Loss at epoch  1  after  433  of  1350  examples is  0.671554241046
+  Loss at epoch  1  after  541  of  1350  examples is  0.670271194301
+  Loss at epoch  1  after  649  of  1350  examples is  0.670388718094
+  Loss at epoch  1  after  757  of  1350  examples is  0.66462688461
+  Loss at epoch  1  after  865  of  1350  examples is  0.662637677117
+  Loss at epoch  1  after  973  of  1350  examples is  0.663074593474
+  Loss at epoch  1  after  1081  of  1350  examples is  0.648220627149
+  Loss at epoch  1  after  1189  of  1350  examples is  0.632285879428
+  Loss at epoch  1  after  1297  of  1350  examples is  0.631229610745
+Reconstruction Loss after epoch  1  :  0.000721859499581
+Total Loss:  0.631059094767
+           Test Accuracy:   0.653333333333
+           Confusion Matrix:  [[25 18  7]
+ [11 29 10]
+ [ 3  3 44]]
+  Loss at epoch  2  after  109  of  1350  examples is  0.50566362405
+  Loss at epoch  2  after  217  of  1350  examples is  0.52692763267
+  Loss at epoch  2  after  325  of  1350  examples is  0.512870514943
+  Loss at epoch  2  after  433  of  1350  examples is  0.495680117442
+  Loss at epoch  2  after  541  of  1350  examples is  0.495111374229
+  Loss at epoch  2  after  649  of  1350  examples is  0.502427705631
+  Loss at epoch  2  after  757  of  1350  examples is  0.499700491463
+  Loss at epoch  2  after  865  of  1350  examples is  0.498096017962
+  Loss at epoch  2  after  973  of  1350  examples is  0.514027456095
+  Loss at epoch  2  after  1081  of  1350  examples is  0.519792431984
+  Loss at epoch  2  after  1189  of  1350  examples is  0.522411436895
+  Loss at epoch  2  after  1297  of  1350  examples is  0.521417293833
+Reconstruction Loss after epoch  2  :  0.000227613240855
+Total Loss:  0.52525840564
+           Test Accuracy:   0.66
+           Confusion Matrix:  [[33 12  5]
+ [20 21  9]
+ [ 5  0 45]]
+  Loss at epoch  3  after  109  of  1350  examples is  0.415179836094
+  Loss at epoch  3  after  217  of  1350  examples is  0.428578869264
+  Loss at epoch  3  after  325  of  1350  examples is  0.439395482999
+  Loss at epoch  3  after  433  of  1350  examples is  0.438973056183
+  Loss at epoch  3  after  541  of  1350  examples is  0.435925667641
+  Loss at epoch  3  after  649  of  1350  examples is  0.450918515722
+  Loss at epoch  3  after  757  of  1350  examples is  0.456204818884
+  Loss at epoch  3  after  865  of  1350  examples is  0.452872363508
+  Loss at epoch  3  after  973  of  1350  examples is  0.454789657846
+  Loss at epoch  3  after  1081  of  1350  examples is  0.461852141683
+  Loss at epoch  3  after  1189  of  1350  examples is  0.462668051105
+  Loss at epoch  3  after  1297  of  1350  examples is  0.465923671067
+Reconstruction Loss after epoch  3  :  0.000550909319425
+Total Loss:  0.472671824394
+           Test Accuracy:   0.706666666667
+           Confusion Matrix:  [[28 16  6]
+ [10 32  8]
+ [ 3  1 46]]
+  Loss at epoch  4  after  109  of  1350  examples is  0.466800928936
+  Loss at epoch  4  after  217  of  1350  examples is  0.471234940851
+  Loss at epoch  4  after  325  of  1350  examples is  0.445678472794
+  Loss at epoch  4  after  433  of  1350  examples is  0.43699808725
+  Loss at epoch  4  after  541  of  1350  examples is  0.44156460307
+  Loss at epoch  4  after  649  of  1350  examples is  0.430562362327
+  Loss at epoch  4  after  757  of  1350  examples is  0.429377350617
+  Loss at epoch  4  after  865  of  1350  examples is  0.42750701074
+  Loss at epoch  4  after  973  of  1350  examples is  0.428271791213
+  Loss at epoch  4  after  1081  of  1350  examples is  0.422192518822
+  Loss at epoch  4  after  1189  of  1350  examples is  0.424879591213
+  Loss at epoch  4  after  1297  of  1350  examples is  0.42135970376
+Reconstruction Loss after epoch  4  :  0.000210758759127
+Total Loss:  0.420341356364
+           Test Accuracy:   0.686666666667
+           Confusion Matrix:  [[32 13  5]
+ [15 26  9]
+ [ 3  2 45]]
+  Loss at epoch  5  after  109  of  1350  examples is  0.359742110475
+  Loss at epoch  5  after  217  of  1350  examples is  0.34555530603
+  Loss at epoch  5  after  325  of  1350  examples is  0.359306800549
+  Loss at epoch  5  after  433  of  1350  examples is  0.351323276552
+  Loss at epoch  5  after  541  of  1350  examples is  0.36293726829
+  Loss at epoch  5  after  649  of  1350  examples is  0.37078448354
+  Loss at epoch  5  after  757  of  1350  examples is  0.37305036632
+  Loss at epoch  5  after  865  of  1350  examples is  0.372097127837
+  Loss at epoch  5  after  973  of  1350  examples is  0.374274039685
+  Loss at epoch  5  after  1081  of  1350  examples is  0.379069864033
+  Loss at epoch  5  after  1189  of  1350  examples is  0.381756946257
+  Loss at epoch  5  after  1297  of  1350  examples is  0.375422651251
+Reconstruction Loss after epoch  5  :  7.99194607004e-05
+Total Loss:  0.372344134694
+           Test Accuracy:   0.673333333333
+           Confusion Matrix:  [[34 11  5]
+ [20 23  7]
+ [ 5  1 44]]
+  Loss at epoch  6  after  109  of  1350  examples is  0.337902415236
+  Loss at epoch  6  after  217  of  1350  examples is  0.333578733805
+  Loss at epoch  6  after  325  of  1350  examples is  0.333286560132
+  Loss at epoch  6  after  433  of  1350  examples is  0.318748449343
+  Loss at epoch  6  after  541  of  1350  examples is  0.329865274059
+  Loss at epoch  6  after  649  of  1350  examples is  0.330527872077
+  Loss at epoch  6  after  757  of  1350  examples is  0.327092055089
+  Loss at epoch  6  after  865  of  1350  examples is  0.333884635516
+  Loss at epoch  6  after  973  of  1350  examples is  0.336030945258
+  Loss at epoch  6  after  1081  of  1350  examples is  0.335343249356
+  Loss at epoch  6  after  1189  of  1350  examples is  0.336222090322
+  Loss at epoch  6  after  1297  of  1350  examples is  0.338888179318
+Reconstruction Loss after epoch  6  :  0.000142221800227
+Total Loss:  0.342287205
+           Test Accuracy:   0.7
+           Confusion Matrix:  [[31 16  3]
+ [13 30  7]
+ [ 5  1 44]]
+  Loss at epoch  7  after  109  of  1350  examples is  0.354450001082
+  Loss at epoch  7  after  217  of  1350  examples is  0.327537963467
+  Loss at epoch  7  after  325  of  1350  examples is  0.32649506899
+  Loss at epoch  7  after  433  of  1350  examples is  0.311313691508
+  Loss at epoch  7  after  541  of  1350  examples is  0.310681616312
+  Loss at epoch  7  after  649  of  1350  examples is  0.320689674243
+  Loss at epoch  7  after  757  of  1350  examples is  0.315037104735
+  Loss at epoch  7  after  865  of  1350  examples is  0.312312658329
+  Loss at epoch  7  after  973  of  1350  examples is  0.308633648051
+  Loss at epoch  7  after  1081  of  1350  examples is  0.302770554303
+  Loss at epoch  7  after  1189  of  1350  examples is  0.303667971825
+  Loss at epoch  7  after  1297  of  1350  examples is  0.3023612127
+Reconstruction Loss after epoch  7  :  3.13208952028e-06
+Total Loss:  0.301726521297
+           Test Accuracy:   0.713333333333
+           Confusion Matrix:  [[34 13  3]
+ [13 29  8]
+ [ 4  2 44]]
+  Loss at epoch  8  after  109  of  1350  examples is  0.252151044684
+  Loss at epoch  8  after  217  of  1350  examples is  0.247104342357
+  Loss at epoch  8  after  325  of  1350  examples is  0.238247750081
+  Loss at epoch  8  after  433  of  1350  examples is  0.260855877716
+  Loss at epoch  8  after  541  of  1350  examples is  0.26057318503
+  Loss at epoch  8  after  649  of  1350  examples is  0.263622323749
+  Loss at epoch  8  after  757  of  1350  examples is  0.260785488857
+  Loss at epoch  8  after  865  of  1350  examples is  0.257015130148
+  Loss at epoch  8  after  973  of  1350  examples is  0.257345691492
+  Loss at epoch  8  after  1081  of  1350  examples is  0.25868098475
+  Loss at epoch  8  after  1189  of  1350  examples is  0.255606348972
+  Loss at epoch  8  after  1297  of  1350  examples is  0.251752851877
+Reconstruction Loss after epoch  8  :  0.000176204212677
+Total Loss:  0.256396593472
+           Test Accuracy:   0.693333333333
+           Confusion Matrix:  [[29 16  5]
+ [12 31  7]
+ [ 4  2 44]]
+  Loss at epoch  9  after  109  of  1350  examples is  0.204218979276
+  Loss at epoch  9  after  217  of  1350  examples is  0.235301216764
+  Loss at epoch  9  after  325  of  1350  examples is  0.236495869068
+  Loss at epoch  9  after  433  of  1350  examples is  0.227297231521
+  Loss at epoch  9  after  541  of  1350  examples is  0.218241544341
+  Loss at epoch  9  after  649  of  1350  examples is  0.212624006306
+  Loss at epoch  9  after  757  of  1350  examples is  0.216038639944
+  Loss at epoch  9  after  865  of  1350  examples is  0.211233150718
+  Loss at epoch  9  after  973  of  1350  examples is  0.217483346258
+  Loss at epoch  9  after  1081  of  1350  examples is  0.22245777621
+  Loss at epoch  9  after  1189  of  1350  examples is  0.224035933827
+  Loss at epoch  9  after  1297  of  1350  examples is  0.224318393879
+Reconstruction Loss after epoch  9  :  0.00056227792377
+Total Loss:  0.223954133309
+           Test Accuracy:   0.706666666667
+           Confusion Matrix:  [[36 11  3]
+ [16 26  8]
+ [ 5  1 44]]
+  Loss at epoch  10  after  109  of  1350  examples is  0.154533563951
+  Loss at epoch  10  after  217  of  1350  examples is  0.183118382357
+  Loss at epoch  10  after  325  of  1350  examples is  0.18991294439
+  Loss at epoch  10  after  433  of  1350  examples is  0.191558290712
+  Loss at epoch  10  after  541  of  1350  examples is  0.19076959428
+  Loss at epoch  10  after  649  of  1350  examples is  0.1846049698
+  Loss at epoch  10  after  757  of  1350  examples is  0.195378203885
+  Loss at epoch  10  after  865  of  1350  examples is  0.191184270899
+  Loss at epoch  10  after  973  of  1350  examples is  0.190691717758
+  Loss at epoch  10  after  1081  of  1350  examples is  0.192517501656
+  Loss at epoch  10  after  1189  of  1350  examples is  0.19162679854
+  Loss at epoch  10  after  1297  of  1350  examples is  0.193483708841
+Reconstruction Loss after epoch  10  :  2.87927052959e-05
+Total Loss:  0.191698396034
+           Test Accuracy:   0.713333333333
+           Confusion Matrix:  [[34 13  3]
+ [13 29  8]
+ [ 5  1 44]]
+  Loss at epoch  11  after  109  of  1350  examples is  0.148910307009
+  Loss at epoch  11  after  217  of  1350  examples is  0.16703616529
+  Loss at epoch  11  after  325  of  1350  examples is  0.172626748819
+  Loss at epoch  11  after  433  of  1350  examples is  0.169310409257
+  Loss at epoch  11  after  541  of  1350  examples is  0.169088782312
+  Loss at epoch  11  after  649  of  1350  examples is  0.164228680505
+  Loss at epoch  11  after  757  of  1350  examples is  0.157219288607
+  Loss at epoch  11  after  865  of  1350  examples is  0.157681506562
+  Loss at epoch  11  after  973  of  1350  examples is  0.16109082014
+  Loss at epoch  11  after  1081  of  1350  examples is  0.166084027809
+  Loss at epoch  11  after  1189  of  1350  examples is  0.170481618509
+  Loss at epoch  11  after  1297  of  1350  examples is  0.166926209708
+Reconstruction Loss after epoch  11  :  7.56233379101e-05
+Total Loss:  0.165760076902
+           Test Accuracy:   0.68
+           Confusion Matrix:  [[32 14  4]
+ [19 26  5]
+ [ 5  1 44]]
+  Loss at epoch  12  after  109  of  1350  examples is  0.124262008645
+  Loss at epoch  12  after  217  of  1350  examples is  0.121061241022
+  Loss at epoch  12  after  325  of  1350  examples is  0.112996128156
+  Loss at epoch  12  after  433  of  1350  examples is  0.1118424382
+  Loss at epoch  12  after  541  of  1350  examples is  0.117805360646
+  Loss at epoch  12  after  649  of  1350  examples is  0.127915420958
+  Loss at epoch  12  after  757  of  1350  examples is  0.127994775693
+  Loss at epoch  12  after  865  of  1350  examples is  0.13347697382
+  Loss at epoch  12  after  973  of  1350  examples is  0.136424912027
+  Loss at epoch  12  after  1081  of  1350  examples is  0.1427808914
+  Loss at epoch  12  after  1189  of  1350  examples is  0.140603722846
+  Loss at epoch  12  after  1297  of  1350  examples is  0.1408084534
+Reconstruction Loss after epoch  12  :  1.09192532667e-05
+Total Loss:  0.142314951478
+           Test Accuracy:   0.706666666667
+           Confusion Matrix:  [[37 10  3]
+ [20 25  5]
+ [ 5  1 44]]
+  Loss at epoch  13  after  109  of  1350  examples is  0.113805997809
+  Loss at epoch  13  after  217  of  1350  examples is  0.117606631896
+  Loss at epoch  13  after  325  of  1350  examples is  0.111106593609
+  Loss at epoch  13  after  433  of  1350  examples is  0.106105030271
+  Loss at epoch  13  after  541  of  1350  examples is  0.107832588903
+  Loss at epoch  13  after  649  of  1350  examples is  0.11020754381
+  Loss at epoch  13  after  757  of  1350  examples is  0.112963061115
+  Loss at epoch  13  after  865  of  1350  examples is  0.113932957401
+  Loss at epoch  13  after  973  of  1350  examples is  0.112845497227
+  Loss at epoch  13  after  1081  of  1350  examples is  0.11917777314
+  Loss at epoch  13  after  1189  of  1350  examples is  0.117410637131
+  Loss at epoch  13  after  1297  of  1350  examples is  0.115460030924
+Reconstruction Loss after epoch  13  :  6.58892949893e-05
+Total Loss:  0.11639505338
+           Test Accuracy:   0.706666666667
+           Confusion Matrix:  [[33 14  3]
+ [16 29  5]
+ [ 6  0 44]]
+  Loss at epoch  14  after  109  of  1350  examples is  0.0834849312765
+  Loss at epoch  14  after  217  of  1350  examples is  0.081437688544
+  Loss at epoch  14  after  325  of  1350  examples is  0.0806164902907
+  Loss at epoch  14  after  433  of  1350  examples is  0.0817500482255
+  Loss at epoch  14  after  541  of  1350  examples is  0.0879788121102
+  Loss at epoch  14  after  649  of  1350  examples is  0.0911950656372
+  Loss at epoch  14  after  757  of  1350  examples is  0.0920155258601
+  Loss at epoch  14  after  865  of  1350  examples is  0.0974287290105
+  Loss at epoch  14  after  973  of  1350  examples is  0.0983743031738
+  Loss at epoch  14  after  1081  of  1350  examples is  0.0963527055166
+  Loss at epoch  14  after  1189  of  1350  examples is  0.0949626364961
+  Loss at epoch  14  after  1297  of  1350  examples is  0.0952095133392
+Reconstruction Loss after epoch  14  :  0.000225976782318
+Total Loss:  0.0955333762218
+           Test Accuracy:   0.726666666667
+           Confusion Matrix:  [[35 12  3]
+ [13 31  6]
+ [ 5  2 43]]
+  Loss at epoch  15  after  109  of  1350  examples is  0.0941638432511
+  Loss at epoch  15  after  217  of  1350  examples is  0.0811687096747
+  Loss at epoch  15  after  325  of  1350  examples is  0.0770974616821
+  Loss at epoch  15  after  433  of  1350  examples is  0.075687745358
+  Loss at epoch  15  after  541  of  1350  examples is  0.0712162478243
+  Loss at epoch  15  after  649  of  1350  examples is  0.0719733818195
+  Loss at epoch  15  after  757  of  1350  examples is  0.0746507060811
+  Loss at epoch  15  after  865  of  1350  examples is  0.0717069185883
+  Loss at epoch  15  after  973  of  1350  examples is  0.0716916844325
+  Loss at epoch  15  after  1081  of  1350  examples is  0.0717913682928
+  Loss at epoch  15  after  1189  of  1350  examples is  0.0720637179754
+  Loss at epoch  15  after  1297  of  1350  examples is  0.0721966121274
+Reconstruction Loss after epoch  15  :  6.8804319482e-06
+Total Loss:  0.071709580747
+           Test Accuracy:   0.72
+           Confusion Matrix:  [[35 12  3]
+ [16 28  6]
+ [ 4  1 45]]
+  Loss at epoch  16  after  109  of  1350  examples is  0.0419254215485
+  Loss at epoch  16  after  217  of  1350  examples is  0.054071116832
+  Loss at epoch  16  after  325  of  1350  examples is  0.0518417980121
+  Loss at epoch  16  after  433  of  1350  examples is  0.054643533384
+  Loss at epoch  16  after  541  of  1350  examples is  0.0540370899296
+  Loss at epoch  16  after  649  of  1350  examples is  0.0525027081853
+  Loss at epoch  16  after  757  of  1350  examples is  0.0524177123722
+  Loss at epoch  16  after  865  of  1350  examples is  0.0545179940373
+  Loss at epoch  16  after  973  of  1350  examples is  0.055188847164
+  Loss at epoch  16  after  1081  of  1350  examples is  0.0547410570064
+  Loss at epoch  16  after  1189  of  1350  examples is  0.0551638300425
+  Loss at epoch  16  after  1297  of  1350  examples is  0.0550404830262
+Reconstruction Loss after epoch  16  :  1.81452245028e-06
+Total Loss:  0.0537948041029
+           Test Accuracy:   0.74
+           Confusion Matrix:  [[38  9  3]
+ [17 28  5]
+ [ 4  1 45]]
+  Loss at epoch  17  after  109  of  1350  examples is  0.0324920240892
+  Loss at epoch  17  after  217  of  1350  examples is  0.0324190338636
+  Loss at epoch  17  after  325  of  1350  examples is  0.0353904885512
+  Loss at epoch  17  after  433  of  1350  examples is  0.0336900068486
+  Loss at epoch  17  after  541  of  1350  examples is  0.0368619934688
+  Loss at epoch  17  after  649  of  1350  examples is  0.0384925772854
+  Loss at epoch  17  after  757  of  1350  examples is  0.0380057668119
+  Loss at epoch  17  after  865  of  1350  examples is  0.0385928349688
+  Loss at epoch  17  after  973  of  1350  examples is  0.0400527087782
+  Loss at epoch  17  after  1081  of  1350  examples is  0.045109997239
+  Loss at epoch  17  after  1189  of  1350  examples is  0.0444977635391
+  Loss at epoch  17  after  1297  of  1350  examples is  0.0440464536318
+Reconstruction Loss after epoch  17  :  5.09714568482e-06
+Total Loss:  0.043767021463
+           Test Accuracy:   0.733333333333
+           Confusion Matrix:  [[35 12  3]
+ [14 30  6]
+ [ 4  1 45]]
+  Loss at epoch  18  after  109  of  1350  examples is  0.0247615143793
+  Loss at epoch  18  after  217  of  1350  examples is  0.0287260588962
+  Loss at epoch  18  after  325  of  1350  examples is  0.0304245007955
+  Loss at epoch  18  after  433  of  1350  examples is  0.0309376861152
+  Loss at epoch  18  after  541  of  1350  examples is  0.0298525303217
+  Loss at epoch  18  after  649  of  1350  examples is  0.0288420696104
+  Loss at epoch  18  after  757  of  1350  examples is  0.0312074542518
+  Loss at epoch  18  after  865  of  1350  examples is  0.0300185626642
+  Loss at epoch  18  after  973  of  1350  examples is  0.0317139797073
+  Loss at epoch  18  after  1081  of  1350  examples is  0.035171399615
+  Loss at epoch  18  after  1189  of  1350  examples is  0.035782415542
+  Loss at epoch  18  after  1297  of  1350  examples is  0.0394630512552
+Reconstruction Loss after epoch  18  :  8.5767157249e-08
+Total Loss:  0.0385358561682
+           Test Accuracy:   0.746666666667
+           Confusion Matrix:  [[38  9  3]
+ [16 30  4]
+ [ 5  1 44]]
+  Loss at epoch  19  after  109  of  1350  examples is  0.0187049677613
+  Loss at epoch  19  after  217  of  1350  examples is  0.0187936367527
+  Loss at epoch  19  after  325  of  1350  examples is  0.0224909734726
+  Loss at epoch  19  after  433  of  1350  examples is  0.0230916376477
+  Loss at epoch  19  after  541  of  1350  examples is  0.0252611550077
+  Loss at epoch  19  after  649  of  1350  examples is  0.0234455435045
+  Loss at epoch  19  after  757  of  1350  examples is  0.0258057848938
+  Loss at epoch  19  after  865  of  1350  examples is  0.0289695253262
+  Loss at epoch  19  after  973  of  1350  examples is  0.0300827971588
+  Loss at epoch  19  after  1081  of  1350  examples is  0.0299174573331
+  Loss at epoch  19  after  1189  of  1350  examples is  0.0303143873949
+  Loss at epoch  19  after  1297  of  1350  examples is  0.0305912541534
+Reconstruction Loss after epoch  19  :  4.24247419808e-07
+Total Loss:  0.0304524910441
+           Test Accuracy:   0.753333333333
+           Confusion Matrix:  [[36 10  4]
+ [15 32  3]
+ [ 3  2 45]]
+  Loss at epoch  20  after  109  of  1350  examples is  0.0197443776174
+  Loss at epoch  20  after  217  of  1350  examples is  0.0199233375936
+  Loss at epoch  20  after  325  of  1350  examples is  0.0326445850959
+  Loss at epoch  20  after  433  of  1350  examples is  0.028033550562
+  Loss at epoch  20  after  541  of  1350  examples is  0.0248276055851
+  Loss at epoch  20  after  649  of  1350  examples is  0.0256189268616
+  Loss at epoch  20  after  757  of  1350  examples is  0.0242753451693
+  Loss at epoch  20  after  865  of  1350  examples is  0.0229145191308
+  Loss at epoch  20  after  973  of  1350  examples is  0.0241443365353
+  Loss at epoch  20  after  1081  of  1350  examples is  0.0244551580003
+  Loss at epoch  20  after  1189  of  1350  examples is  0.0237356956713
+  Loss at epoch  20  after  1297  of  1350  examples is  0.0228856564855
+Reconstruction Loss after epoch  20  :  1.0588537932e-08
+Total Loss:  0.0243411217682
+           Test Accuracy:   0.746666666667
+           Confusion Matrix:  [[33 14  3]
+ [13 35  2]
+ [ 5  1 44]]
+  Loss at epoch  21  after  109  of  1350  examples is  0.0121673236199
+  Loss at epoch  21  after  217  of  1350  examples is  0.0353547422567
+  Loss at epoch  21  after  325  of  1350  examples is  0.0263451374494
+  Loss at epoch  21  after  433  of  1350  examples is  0.0226948119476
+  Loss at epoch  21  after  541  of  1350  examples is  0.0249078671505
+  Loss at epoch  21  after  649  of  1350  examples is  0.0231181865297
+  Loss at epoch  21  after  757  of  1350  examples is  0.0237397360991
+  Loss at epoch  21  after  865  of  1350  examples is  0.0223235653315
+  Loss at epoch  21  after  973  of  1350  examples is  0.0346520190249
+  Loss at epoch  21  after  1081  of  1350  examples is  0.0327833670913
+  Loss at epoch  21  after  1189  of  1350  examples is  0.0314655119978
+  Loss at epoch  21  after  1297  of  1350  examples is  0.0302896457354
+Reconstruction Loss after epoch  21  :  2.10396013465e-05
+Total Loss:  0.0368069317674
+           Test Accuracy:   0.753333333333
+           Confusion Matrix:  [[34 12  4]
+ [10 35  5]
+ [ 4  2 44]]
+  Loss at epoch  22  after  109  of  1350  examples is  0.0106432076988
+  Loss at epoch  22  after  217  of  1350  examples is  0.0107945868497
+  Loss at epoch  22  after  325  of  1350  examples is  0.00969533076653
+  Loss at epoch  22  after  433  of  1350  examples is  0.00966937134503
+  Loss at epoch  22  after  541  of  1350  examples is  0.0114473141936
+  Loss at epoch  22  after  649  of  1350  examples is  0.0116543641259
+  Loss at epoch  22  after  757  of  1350  examples is  0.0116336178748
+  Loss at epoch  22  after  865  of  1350  examples is  0.0113109215147
+  Loss at epoch  22  after  973  of  1350  examples is  0.011880798183
+  Loss at epoch  22  after  1081  of  1350  examples is  0.012417053261
+  Loss at epoch  22  after  1189  of  1350  examples is  0.0122164269773
+  Loss at epoch  22  after  1297  of  1350  examples is  0.0139191167669
+Reconstruction Loss after epoch  22  :  6.63442491691e-06
+Total Loss:  0.014234242441
+           Test Accuracy:   0.733333333333
+           Confusion Matrix:  [[38  8  4]
+ [19 26  5]
+ [ 3  1 46]]
+  Loss at epoch  23  after  109  of  1350  examples is  0.0173304387189
+  Loss at epoch  23  after  217  of  1350  examples is  0.0223783644663
+  Loss at epoch  23  after  325  of  1350  examples is  0.0289619541168
+  Loss at epoch  23  after  433  of  1350  examples is  0.0229563490073
+  Loss at epoch  23  after  541  of  1350  examples is  0.0210651952546
+  Loss at epoch  23  after  649  of  1350  examples is  0.0185927444687
+  Loss at epoch  23  after  757  of  1350  examples is  0.0171090520357
+  Loss at epoch  23  after  865  of  1350  examples is  0.0208115927057
+  Loss at epoch  23  after  973  of  1350  examples is  0.0198604617678
+  Loss at epoch  23  after  1081  of  1350  examples is  0.0189891674803
+  Loss at epoch  23  after  1189  of  1350  examples is  0.0199944446626
+  Loss at epoch  23  after  1297  of  1350  examples is  0.0191141938649
+Reconstruction Loss after epoch  23  :  6.84725452934e-08
+Total Loss:  0.0188892926224
+           Test Accuracy:   0.753333333333
+           Confusion Matrix:  [[36 11  3]
+ [15 32  3]
+ [ 3  2 45]]
+  Loss at epoch  24  after  109  of  1350  examples is  0.00501199490433
+  Loss at epoch  24  after  217  of  1350  examples is  0.00446545253701
+  Loss at epoch  24  after  325  of  1350  examples is  0.00507407555213
+  Loss at epoch  24  after  433  of  1350  examples is  0.00519237397174
+  Loss at epoch  24  after  541  of  1350  examples is  0.00559454374084
+  Loss at epoch  24  after  649  of  1350  examples is  0.00539580276824
+  Loss at epoch  24  after  757  of  1350  examples is  0.00533304079048
+  Loss at epoch  24  after  865  of  1350  examples is  0.00527626971978
+  Loss at epoch  24  after  973  of  1350  examples is  0.00542437031727
+  Loss at epoch  24  after  1081  of  1350  examples is  0.00622128888923
+  Loss at epoch  24  after  1189  of  1350  examples is  0.00650871060695
+  Loss at epoch  24  after  1297  of  1350  examples is  0.0070525947312
+Reconstruction Loss after epoch  24  :  4.74858866366e-05
+Total Loss:  0.00731202375439
+           Test Accuracy:   0.753333333333
+           Confusion Matrix:  [[36 10  4]
+ [14 31  5]
+ [ 3  1 46]]
+  Loss at epoch  25  after  109  of  1350  examples is  0.00264673604878
+  Loss at epoch  25  after  217  of  1350  examples is  0.00252645081639
+  Loss at epoch  25  after  325  of  1350  examples is  0.00651457456442
+  Loss at epoch  25  after  433  of  1350  examples is  0.00981443968987
+  Loss at epoch  25  after  541  of  1350  examples is  0.00856092886211
+  Loss at epoch  25  after  649  of  1350  examples is  0.00864034652343
+  Loss at epoch  25  after  757  of  1350  examples is  0.00785433435062
+  Loss at epoch  25  after  865  of  1350  examples is  0.00808680050635
+  Loss at epoch  25  after  973  of  1350  examples is  0.00796626509767
+  Loss at epoch  25  after  1081  of  1350  examples is  0.0135747868633
+  Loss at epoch  25  after  1189  of  1350  examples is  0.0135797962509
+  Loss at epoch  25  after  1297  of  1350  examples is  0.0127125184814
+Reconstruction Loss after epoch  25  :  3.99187880035e-07
+Total Loss:  0.0122858944599
+           Test Accuracy:   0.76
+           Confusion Matrix:  [[34 12  4]
+ [10 35  5]
+ [ 3  2 45]]
+  Loss at epoch  26  after  109  of  1350  examples is  0.00173310183604
+  Loss at epoch  26  after  217  of  1350  examples is  0.00798212602941
+  Loss at epoch  26  after  325  of  1350  examples is  0.00599548449883
+  Loss at epoch  26  after  433  of  1350  examples is  0.00503584281402
+  Loss at epoch  26  after  541  of  1350  examples is  0.00531557295988
+  Loss at epoch  26  after  649  of  1350  examples is  0.00492854616124
+  Loss at epoch  26  after  757  of  1350  examples is  0.00466181225632
+  Loss at epoch  26  after  865  of  1350  examples is  0.00439235950481
+  Loss at epoch  26  after  973  of  1350  examples is  0.00403034962706
+  Loss at epoch  26  after  1081  of  1350  examples is  0.00382087249429
+  Loss at epoch  26  after  1189  of  1350  examples is  0.00360848038411
+  Loss at epoch  26  after  1297  of  1350  examples is  0.00366396814837
+Reconstruction Loss after epoch  26  :  2.04711733351e-08
+Total Loss:  0.00380617380142
+           Test Accuracy:   0.793333333333
+           Confusion Matrix:  [[37  9  4]
+ [11 36  3]
+ [ 2  2 46]]
+  Loss at epoch  27  after  109  of  1350  examples is  0.00105669957782
+  Loss at epoch  27  after  217  of  1350  examples is  0.00096942862058
+  Loss at epoch  27  after  325  of  1350  examples is  0.00116015214186
+  Loss at epoch  27  after  433  of  1350  examples is  0.00479739560266
+  Loss at epoch  27  after  541  of  1350  examples is  0.00663975415521
+  Loss at epoch  27  after  649  of  1350  examples is  0.00575796821268
+  Loss at epoch  27  after  757  of  1350  examples is  0.0087202046475
+  Loss at epoch  27  after  865  of  1350  examples is  0.00779874400596
+  Loss at epoch  27  after  973  of  1350  examples is  0.00745408122121
+  Loss at epoch  27  after  1081  of  1350  examples is  0.00702344659961
+  Loss at epoch  27  after  1189  of  1350  examples is  0.00665308814574
+  Loss at epoch  27  after  1297  of  1350  examples is  0.00827066261399
+Reconstruction Loss after epoch  27  :  1.764756322e-09
+Total Loss:  0.00801641004867
+           Test Accuracy:   0.793333333333
+           Confusion Matrix:  [[40  6  4]
+ [12 34  4]
+ [ 3  2 45]]
+  Loss at epoch  28  after  109  of  1350  examples is  0.000908068560679
+  Loss at epoch  28  after  217  of  1350  examples is  0.0024685431186
+  Loss at epoch  28  after  325  of  1350  examples is  0.00205218388484
+  Loss at epoch  28  after  433  of  1350  examples is  0.00206707366344
+  Loss at epoch  28  after  541  of  1350  examples is  0.0142646280983
+  Loss at epoch  28  after  649  of  1350  examples is  0.0121486848235
+  Loss at epoch  28  after  757  of  1350  examples is  0.0121810114998
+  Loss at epoch  28  after  865  of  1350  examples is  0.0107504207964
+  Loss at epoch  28  after  973  of  1350  examples is  0.0123426975474
+  Loss at epoch  28  after  1081  of  1350  examples is  0.0112704483036
+  Loss at epoch  28  after  1189  of  1350  examples is  0.0132361825922
+  Loss at epoch  28  after  1297  of  1350  examples is  0.0122152178124
+Reconstruction Loss after epoch  28  :  2.96479062095e-08
+Total Loss:  0.01185954473
+           Test Accuracy:   0.753333333333
+           Confusion Matrix:  [[35 11  4]
+ [12 33  5]
+ [ 3  2 45]]
+  Loss at epoch  29  after  109  of  1350  examples is  0.000668654748059
+  Loss at epoch  29  after  217  of  1350  examples is  0.00150094164132
+  Loss at epoch  29  after  325  of  1350  examples is  0.00125525401189
+  Loss at epoch  29  after  433  of  1350  examples is  0.00620740555726
+  Loss at epoch  29  after  541  of  1350  examples is  0.00525915600676
+  Loss at epoch  29  after  649  of  1350  examples is  0.00446748586575
+  Loss at epoch  29  after  757  of  1350  examples is  0.004059391891
+  Loss at epoch  29  after  865  of  1350  examples is  0.00973733394821
+  Loss at epoch  29  after  973  of  1350  examples is  0.00872839146503
+  Loss at epoch  29  after  1081  of  1350  examples is  0.0113011979042
+  Loss at epoch  29  after  1189  of  1350  examples is  0.015053684517
+  Loss at epoch  29  after  1297  of  1350  examples is  0.014197038152
+Reconstruction Loss after epoch  29  :  2.03264633167e-06
+Total Loss:  0.0136517338361
+           Test Accuracy:   0.78
+           Confusion Matrix:  [[39  7  4]
+ [14 32  4]
+ [ 2  2 46]]

@@ -18,7 +18,7 @@ do
  cat ${mfcc_folder}/${fname}.scp | while read f
  do
    n=`echo "${f}" | cut -d ' ' -f 1`
-   echo $f | copy-feats scp:- ark,t:- | add-deltas ark:- ark,t:- > ../data/${lang}/raw/${n}.mfcc
+   echo $f | copy-feats scp:- ark,t:- | add-deltas ark:- ark,t:- > ../data/${lang}/raw/${n}.mfcc # | apply-cmvn scp:${mfcc_folder}/../cmvn_${lang}.scp ark:- ark,t:- > ../data/${lang}/raw/${n}.mfcc
    cat ../data/${lang}/raw/${n}.mfcc | sed '/\[$/d' | sed 's/]//g' > ../data/${lang}/cleaned/${n}.mfcc
  done
 done 

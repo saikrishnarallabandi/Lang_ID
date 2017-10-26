@@ -1,0 +1,487 @@
+random seed: 2620203430
+[dynet] allocating memory: 512MB
+[dynet] memory allocation done.
+Loaded params
+Loaded params for means
+Loaded params for variances
+Loaded params for output
+  Loss at epoch  0  after  148  of  1845  examples is  3.38382200212
+  Loss at epoch  0  after  295  of  1845  examples is  3.18672271664
+  Loss at epoch  0  after  442  of  1845  examples is  2.88605911956
+  Loss at epoch  0  after  589  of  1845  examples is  2.65113075581
+  Loss at epoch  0  after  736  of  1845  examples is  2.52091555176
+  Loss at epoch  0  after  883  of  1845  examples is  2.39491839925
+  Loss at epoch  0  after  1030  of  1845  examples is  2.27511380358
+  Loss at epoch  0  after  1177  of  1845  examples is  2.20518438902
+  Loss at epoch  0  after  1324  of  1845  examples is  2.16556222433
+  Loss at epoch  0  after  1471  of  1845  examples is  2.11834722599
+  Loss at epoch  0  after  1618  of  1845  examples is  2.06230552003
+  Loss at epoch  0  after  1765  of  1845  examples is  2.02332874081
+KL Loss after epoch  0  :  2.4716925776e-05
+Reconstruction Loss after epoch  0  :  0.00151308941557
+Total Loss:  2.0018678937
+           Test Accuracy:   0.375609756098
+  Loss at epoch  1  after  148  of  1845  examples is  1.6498193322
+  Loss at epoch  1  after  295  of  1845  examples is  1.5864270677
+  Loss at epoch  1  after  442  of  1845  examples is  1.50971458252
+  Loss at epoch  1  after  589  of  1845  examples is  1.49533221632
+  Loss at epoch  1  after  736  of  1845  examples is  1.5249100717
+  Loss at epoch  1  after  883  of  1845  examples is  1.52904293252
+  Loss at epoch  1  after  1030  of  1845  examples is  1.5278216759
+  Loss at epoch  1  after  1177  of  1845  examples is  1.54038732039
+  Loss at epoch  1  after  1324  of  1845  examples is  1.5188573195
+  Loss at epoch  1  after  1471  of  1845  examples is  1.50637544952
+  Loss at epoch  1  after  1618  of  1845  examples is  1.49807318435
+  Loss at epoch  1  after  1765  of  1845  examples is  1.48547988022
+KL Loss after epoch  1  :  1.23336733615e-05
+Reconstruction Loss after epoch  1  :  0.00085399526687
+Total Loss:  1.48183582925
+           Test Accuracy:   0.312195121951
+  Loss at epoch  2  after  148  of  1845  examples is  1.49987615222
+  Loss at epoch  2  after  295  of  1845  examples is  1.52882481884
+  Loss at epoch  2  after  442  of  1845  examples is  1.51864636255
+  Loss at epoch  2  after  589  of  1845  examples is  1.49975586499
+  Loss at epoch  2  after  736  of  1845  examples is  1.48771452604
+  Loss at epoch  2  after  883  of  1845  examples is  1.48349511472
+  Loss at epoch  2  after  1030  of  1845  examples is  1.46295649965
+  Loss at epoch  2  after  1177  of  1845  examples is  1.46006194648
+  Loss at epoch  2  after  1324  of  1845  examples is  1.45276070755
+  Loss at epoch  2  after  1471  of  1845  examples is  1.45232367759
+  Loss at epoch  2  after  1618  of  1845  examples is  1.4510796172
+  Loss at epoch  2  after  1765  of  1845  examples is  1.4514632083
+KL Loss after epoch  2  :  1.07652898212e-05
+Reconstruction Loss after epoch  2  :  0.00207038483666
+Total Loss:  1.44528860805
+           Test Accuracy:   0.385365853659
+  Loss at epoch  3  after  148  of  1845  examples is  1.346039472
+  Loss at epoch  3  after  295  of  1845  examples is  1.40475631094
+  Loss at epoch  3  after  442  of  1845  examples is  1.41520427033
+  Loss at epoch  3  after  589  of  1845  examples is  1.40789380275
+  Loss at epoch  3  after  736  of  1845  examples is  1.4024948134
+  Loss at epoch  3  after  883  of  1845  examples is  1.40854538462
+  Loss at epoch  3  after  1030  of  1845  examples is  1.39074652661
+  Loss at epoch  3  after  1177  of  1845  examples is  1.36640274874
+  Loss at epoch  3  after  1324  of  1845  examples is  1.36412112694
+  Loss at epoch  3  after  1471  of  1845  examples is  1.35502769984
+  Loss at epoch  3  after  1618  of  1845  examples is  1.3503981942
+  Loss at epoch  3  after  1765  of  1845  examples is  1.34876443215
+KL Loss after epoch  3  :  3.19848823909e-05
+Reconstruction Loss after epoch  3  :  0.000161460523099
+Total Loss:  1.34305938182
+           Test Accuracy:   0.409756097561
+  Loss at epoch  4  after  148  of  1845  examples is  1.22332810711
+  Loss at epoch  4  after  295  of  1845  examples is  1.24399316089
+  Loss at epoch  4  after  442  of  1845  examples is  1.25312760243
+  Loss at epoch  4  after  589  of  1845  examples is  1.25558514693
+  Loss at epoch  4  after  736  of  1845  examples is  1.25742650753
+  Loss at epoch  4  after  883  of  1845  examples is  1.26713371613
+  Loss at epoch  4  after  1030  of  1845  examples is  1.27037767952
+  Loss at epoch  4  after  1177  of  1845  examples is  1.26901084918
+  Loss at epoch  4  after  1324  of  1845  examples is  1.26354947145
+  Loss at epoch  4  after  1471  of  1845  examples is  1.26384887753
+  Loss at epoch  4  after  1618  of  1845  examples is  1.25495454799
+  Loss at epoch  4  after  1765  of  1845  examples is  1.24805175533
+KL Loss after epoch  4  :  1.40977093096e-05
+Reconstruction Loss after epoch  4  :  0.000477299142633
+Total Loss:  1.24224494416
+           Test Accuracy:   0.439024390244
+  Loss at epoch  5  after  148  of  1845  examples is  1.18530887708
+  Loss at epoch  5  after  295  of  1845  examples is  1.21243985821
+  Loss at epoch  5  after  442  of  1845  examples is  1.1908587487
+  Loss at epoch  5  after  589  of  1845  examples is  1.21200222703
+  Loss at epoch  5  after  736  of  1845  examples is  1.21392966706
+  Loss at epoch  5  after  883  of  1845  examples is  1.22365555343
+  Loss at epoch  5  after  1030  of  1845  examples is  1.22024228984
+  Loss at epoch  5  after  1177  of  1845  examples is  1.2305606393
+  Loss at epoch  5  after  1324  of  1845  examples is  1.22945606146
+  Loss at epoch  5  after  1471  of  1845  examples is  1.22662855886
+  Loss at epoch  5  after  1618  of  1845  examples is  1.21931873684
+  Loss at epoch  5  after  1765  of  1845  examples is  1.22177091293
+KL Loss after epoch  5  :  1.00149687295e-05
+Reconstruction Loss after epoch  5  :  0.000311668360866
+Total Loss:  1.22441398679
+           Test Accuracy:   0.385365853659
+  Loss at epoch  6  after  148  of  1845  examples is  1.16153175927
+  Loss at epoch  6  after  295  of  1845  examples is  1.15451681634
+  Loss at epoch  6  after  442  of  1845  examples is  1.14780907845
+  Loss at epoch  6  after  589  of  1845  examples is  1.15954849083
+  Loss at epoch  6  after  736  of  1845  examples is  1.14593426053
+  Loss at epoch  6  after  883  of  1845  examples is  1.13846518709
+  Loss at epoch  6  after  1030  of  1845  examples is  1.14518231394
+  Loss at epoch  6  after  1177  of  1845  examples is  1.14538313194
+  Loss at epoch  6  after  1324  of  1845  examples is  1.14582102505
+  Loss at epoch  6  after  1471  of  1845  examples is  1.1459461904
+  Loss at epoch  6  after  1618  of  1845  examples is  1.14156820289
+  Loss at epoch  6  after  1765  of  1845  examples is  1.13666975542
+KL Loss after epoch  6  :  1.66536055562e-05
+Reconstruction Loss after epoch  6  :  0.000381806431457
+Total Loss:  1.13726604393
+           Test Accuracy:   0.473170731707
+  Loss at epoch  7  after  148  of  1845  examples is  1.0800192483
+  Loss at epoch  7  after  295  of  1845  examples is  1.0756702212
+  Loss at epoch  7  after  442  of  1845  examples is  1.07011553133
+  Loss at epoch  7  after  589  of  1845  examples is  1.08113305617
+  Loss at epoch  7  after  736  of  1845  examples is  1.08457059899
+  Loss at epoch  7  after  883  of  1845  examples is  1.1067409646
+  Loss at epoch  7  after  1030  of  1845  examples is  1.10093614335
+  Loss at epoch  7  after  1177  of  1845  examples is  1.09354999077
+  Loss at epoch  7  after  1324  of  1845  examples is  1.08713053716
+  Loss at epoch  7  after  1471  of  1845  examples is  1.0851932166
+  Loss at epoch  7  after  1618  of  1845  examples is  1.08153302439
+  Loss at epoch  7  after  1765  of  1845  examples is  1.08038368011
+KL Loss after epoch  7  :  7.98752287227e-06
+Reconstruction Loss after epoch  7  :  0.000856087241374
+Total Loss:  1.07875440427
+           Test Accuracy:   0.473170731707
+  Loss at epoch  8  after  148  of  1845  examples is  1.07367557187
+  Loss at epoch  8  after  295  of  1845  examples is  1.03103829521
+  Loss at epoch  8  after  442  of  1845  examples is  1.03941147434
+  Loss at epoch  8  after  589  of  1845  examples is  1.03624851797
+  Loss at epoch  8  after  736  of  1845  examples is  1.0289382211
+  Loss at epoch  8  after  883  of  1845  examples is  1.04099015792
+  Loss at epoch  8  after  1030  of  1845  examples is  1.03602588142
+  Loss at epoch  8  after  1177  of  1845  examples is  1.03638844262
+  Loss at epoch  8  after  1324  of  1845  examples is  1.03494479341
+  Loss at epoch  8  after  1471  of  1845  examples is  1.03741424263
+  Loss at epoch  8  after  1618  of  1845  examples is  1.03369509734
+  Loss at epoch  8  after  1765  of  1845  examples is  1.03032314247
+KL Loss after epoch  8  :  8.39503653517e-06
+Reconstruction Loss after epoch  8  :  0.00060264209239
+Total Loss:  1.03084003194
+           Test Accuracy:   0.531707317073
+  Loss at epoch  9  after  148  of  1845  examples is  1.01476202885
+  Loss at epoch  9  after  295  of  1845  examples is  1.00226190343
+  Loss at epoch  9  after  442  of  1845  examples is  1.00764797581
+  Loss at epoch  9  after  589  of  1845  examples is  1.00164192687
+  Loss at epoch  9  after  736  of  1845  examples is  0.999772371319
+  Loss at epoch  9  after  883  of  1845  examples is  0.999799613639
+  Loss at epoch  9  after  1030  of  1845  examples is  1.00608605453
+  Loss at epoch  9  after  1177  of  1845  examples is  1.00531083277
+  Loss at epoch  9  after  1324  of  1845  examples is  1.00534047976
+  Loss at epoch  9  after  1471  of  1845  examples is  1.00622657081
+  Loss at epoch  9  after  1618  of  1845  examples is  1.0067482722
+  Loss at epoch  9  after  1765  of  1845  examples is  1.00701577338
+KL Loss after epoch  9  :  1.43979281542e-05
+Reconstruction Loss after epoch  9  :  0.000470689872233
+Total Loss:  1.00895867512
+           Test Accuracy:   0.565853658537
+  Loss at epoch  10  after  148  of  1845  examples is  0.998204421957
+  Loss at epoch  10  after  295  of  1845  examples is  0.989754378493
+  Loss at epoch  10  after  442  of  1845  examples is  0.977042186854
+  Loss at epoch  10  after  589  of  1845  examples is  0.967054994635
+  Loss at epoch  10  after  736  of  1845  examples is  0.970289562991
+  Loss at epoch  10  after  883  of  1845  examples is  0.967875481293
+  Loss at epoch  10  after  1030  of  1845  examples is  0.964699042654
+  Loss at epoch  10  after  1177  of  1845  examples is  0.959769575066
+  Loss at epoch  10  after  1324  of  1845  examples is  0.960701899631
+  Loss at epoch  10  after  1471  of  1845  examples is  0.959933599876
+  Loss at epoch  10  after  1618  of  1845  examples is  0.964812951308
+  Loss at epoch  10  after  1765  of  1845  examples is  0.963594427646
+KL Loss after epoch  10  :  1.03108286212e-05
+Reconstruction Loss after epoch  10  :  0.000415954985055
+Total Loss:  0.961517324879
+           Test Accuracy:   0.512195121951
+  Loss at epoch  11  after  148  of  1845  examples is  0.956456896824
+  Loss at epoch  11  after  295  of  1845  examples is  0.950651302883
+  Loss at epoch  11  after  442  of  1845  examples is  0.959288079814
+  Loss at epoch  11  after  589  of  1845  examples is  0.970749399
+  Loss at epoch  11  after  736  of  1845  examples is  0.962948613233
+  Loss at epoch  11  after  883  of  1845  examples is  0.971726004055
+  Loss at epoch  11  after  1030  of  1845  examples is  0.970934752295
+  Loss at epoch  11  after  1177  of  1845  examples is  0.964935831884
+  Loss at epoch  11  after  1324  of  1845  examples is  0.962714862427
+  Loss at epoch  11  after  1471  of  1845  examples is  0.960378775136
+  Loss at epoch  11  after  1618  of  1845  examples is  0.957608466427
+  Loss at epoch  11  after  1765  of  1845  examples is  0.956724077649
+KL Loss after epoch  11  :  6.87258344301e-06
+Reconstruction Loss after epoch  11  :  0.000451404476217
+Total Loss:  0.955678963987
+           Test Accuracy:   0.546341463415
+  Loss at epoch  12  after  148  of  1845  examples is  0.910984488355
+  Loss at epoch  12  after  295  of  1845  examples is  0.92422332299
+  Loss at epoch  12  after  442  of  1845  examples is  0.92995611912
+  Loss at epoch  12  after  589  of  1845  examples is  0.934181491112
+  Loss at epoch  12  after  736  of  1845  examples is  0.934315921617
+  Loss at epoch  12  after  883  of  1845  examples is  0.932347105523
+  Loss at epoch  12  after  1030  of  1845  examples is  0.933577131849
+  Loss at epoch  12  after  1177  of  1845  examples is  0.93070730962
+  Loss at epoch  12  after  1324  of  1845  examples is  0.930020673172
+  Loss at epoch  12  after  1471  of  1845  examples is  0.930205091986
+  Loss at epoch  12  after  1618  of  1845  examples is  0.933352215365
+  Loss at epoch  12  after  1765  of  1845  examples is  0.931589234534
+KL Loss after epoch  12  :  1.75192774569e-06
+Reconstruction Loss after epoch  12  :  0.000331435179013
+Total Loss:  0.929834731141
+           Test Accuracy:   0.492682926829
+  Loss at epoch  13  after  148  of  1845  examples is  0.879024699934
+  Loss at epoch  13  after  295  of  1845  examples is  0.892883703971
+  Loss at epoch  13  after  442  of  1845  examples is  0.893109645442
+  Loss at epoch  13  after  589  of  1845  examples is  0.897700739028
+  Loss at epoch  13  after  736  of  1845  examples is  0.897694925899
+  Loss at epoch  13  after  883  of  1845  examples is  0.901141440477
+  Loss at epoch  13  after  1030  of  1845  examples is  0.90092748499
+  Loss at epoch  13  after  1177  of  1845  examples is  0.899194952458
+  Loss at epoch  13  after  1324  of  1845  examples is  0.900916479798
+  Loss at epoch  13  after  1471  of  1845  examples is  0.900234423735
+  Loss at epoch  13  after  1618  of  1845  examples is  0.898891781387
+  Loss at epoch  13  after  1765  of  1845  examples is  0.900257324413
+KL Loss after epoch  13  :  1.75635127567e-06
+Reconstruction Loss after epoch  13  :  0.000493678989803
+Total Loss:  0.900256832414
+           Test Accuracy:   0.482926829268
+  Loss at epoch  14  after  148  of  1845  examples is  0.891801029041
+  Loss at epoch  14  after  295  of  1845  examples is  0.907781620753
+  Loss at epoch  14  after  442  of  1845  examples is  0.897293045375
+  Loss at epoch  14  after  589  of  1845  examples is  0.894789592317
+  Loss at epoch  14  after  736  of  1845  examples is  0.896970462216
+  Loss at epoch  14  after  883  of  1845  examples is  0.893052041868
+  Loss at epoch  14  after  1030  of  1845  examples is  0.89591427972
+  Loss at epoch  14  after  1177  of  1845  examples is  0.898964420809
+  Loss at epoch  14  after  1324  of  1845  examples is  0.897747358167
+  Loss at epoch  14  after  1471  of  1845  examples is  0.898894233739
+  Loss at epoch  14  after  1618  of  1845  examples is  0.896710355972
+  Loss at epoch  14  after  1765  of  1845  examples is  0.895094804639
+KL Loss after epoch  14  :  3.46115389728e-06
+Reconstruction Loss after epoch  14  :  0.000546529905251
+Total Loss:  0.894653855285
+           Test Accuracy:   0.507317073171
+  Loss at epoch  15  after  148  of  1845  examples is  0.897225668906
+  Loss at epoch  15  after  295  of  1845  examples is  0.882446428578
+  Loss at epoch  15  after  442  of  1845  examples is  0.88585278048
+  Loss at epoch  15  after  589  of  1845  examples is  0.880581480588
+  Loss at epoch  15  after  736  of  1845  examples is  0.882248576609
+  Loss at epoch  15  after  883  of  1845  examples is  0.884759850741
+  Loss at epoch  15  after  1030  of  1845  examples is  0.880001906429
+  Loss at epoch  15  after  1177  of  1845  examples is  0.882096697363
+  Loss at epoch  15  after  1324  of  1845  examples is  0.882920914929
+  Loss at epoch  15  after  1471  of  1845  examples is  0.883527694694
+  Loss at epoch  15  after  1618  of  1845  examples is  0.882117448524
+  Loss at epoch  15  after  1765  of  1845  examples is  0.880024980165
+KL Loss after epoch  15  :  3.61357195018e-07
+Reconstruction Loss after epoch  15  :  0.000523292843983
+Total Loss:  0.880153269528
+           Test Accuracy:   0.439024390244
+  Loss at epoch  16  after  148  of  1845  examples is  0.864021244484
+  Loss at epoch  16  after  295  of  1845  examples is  0.877549991567
+  Loss at epoch  16  after  442  of  1845  examples is  0.871128366813
+  Loss at epoch  16  after  589  of  1845  examples is  0.876467472224
+  Loss at epoch  16  after  736  of  1845  examples is  0.873622266252
+  Loss at epoch  16  after  883  of  1845  examples is  0.874148623657
+  Loss at epoch  16  after  1030  of  1845  examples is  0.87656126277
+  Loss at epoch  16  after  1177  of  1845  examples is  0.876071820142
+  Loss at epoch  16  after  1324  of  1845  examples is  0.875873506339
+  Loss at epoch  16  after  1471  of  1845  examples is  0.87762586504
+  Loss at epoch  16  after  1618  of  1845  examples is  0.873830062792
+  Loss at epoch  16  after  1765  of  1845  examples is  0.872468193057
+KL Loss after epoch  16  :  8.27571423573e-07
+Reconstruction Loss after epoch  16  :  0.000512793837751
+Total Loss:  0.871358543086
+           Test Accuracy:   0.487804878049
+  Loss at epoch  17  after  148  of  1845  examples is  0.859281855661
+  Loss at epoch  17  after  295  of  1845  examples is  0.852404625941
+  Loss at epoch  17  after  442  of  1845  examples is  0.853641727661
+  Loss at epoch  17  after  589  of  1845  examples is  0.857882190338
+  Loss at epoch  17  after  736  of  1845  examples is  0.858160590915
+  Loss at epoch  17  after  883  of  1845  examples is  0.860994628575
+  Loss at epoch  17  after  1030  of  1845  examples is  0.861553579916
+  Loss at epoch  17  after  1177  of  1845  examples is  0.859442900528
+  Loss at epoch  17  after  1324  of  1845  examples is  0.861234198884
+  Loss at epoch  17  after  1471  of  1845  examples is  0.860195601943
+  Loss at epoch  17  after  1618  of  1845  examples is  0.859541970956
+  Loss at epoch  17  after  1765  of  1845  examples is  0.860640673023
+KL Loss after epoch  17  :  8.29718611481e-07
+Reconstruction Loss after epoch  17  :  0.000453142503747
+Total Loss:  0.859842049888
+           Test Accuracy:   0.507317073171
+  Loss at epoch  18  after  148  of  1845  examples is  0.874522336834
+  Loss at epoch  18  after  295  of  1845  examples is  0.84815569914
+  Loss at epoch  18  after  442  of  1845  examples is  0.847308337149
+  Loss at epoch  18  after  589  of  1845  examples is  0.846809745948
+  Loss at epoch  18  after  736  of  1845  examples is  0.847685815604
+  Loss at epoch  18  after  883  of  1845  examples is  0.847853591123
+  Loss at epoch  18  after  1030  of  1845  examples is  0.844777800678
+  Loss at epoch  18  after  1177  of  1845  examples is  0.849593500668
+  Loss at epoch  18  after  1324  of  1845  examples is  0.849778260664
+  Loss at epoch  18  after  1471  of  1845  examples is  0.854284160199
+  Loss at epoch  18  after  1618  of  1845  examples is  0.854210316067
+  Loss at epoch  18  after  1765  of  1845  examples is  0.854921843918
+KL Loss after epoch  18  :  2.55612226633e-07
+Reconstruction Loss after epoch  18  :  0.000465640461199
+Total Loss:  0.853895817198
+           Test Accuracy:   0.463414634146
+  Loss at epoch  19  after  148  of  1845  examples is  0.836550476583
+  Loss at epoch  19  after  295  of  1845  examples is  0.83651220253
+  Loss at epoch  19  after  442  of  1845  examples is  0.841848813436
+  Loss at epoch  19  after  589  of  1845  examples is  0.844726582233
+  Loss at epoch  19  after  736  of  1845  examples is  0.842302678963
+  Loss at epoch  19  after  883  of  1845  examples is  0.843449678723
+  Loss at epoch  19  after  1030  of  1845  examples is  0.843992573428
+  Loss at epoch  19  after  1177  of  1845  examples is  0.844967506149
+  Loss at epoch  19  after  1324  of  1845  examples is  0.844124507553
+  Loss at epoch  19  after  1471  of  1845  examples is  0.846225042395
+  Loss at epoch  19  after  1618  of  1845  examples is  0.8444094144
+  Loss at epoch  19  after  1765  of  1845  examples is  0.844282395745
+KL Loss after epoch  19  :  8.05760514827e-08
+Reconstruction Loss after epoch  19  :  0.000444183886891
+Total Loss:  0.844864083266
+           Test Accuracy:   0.507317073171
+  Loss at epoch  20  after  148  of  1845  examples is  0.835485638799
+  Loss at epoch  20  after  295  of  1845  examples is  0.836533905894
+  Loss at epoch  20  after  442  of  1845  examples is  0.846968332971
+  Loss at epoch  20  after  589  of  1845  examples is  0.845840658417
+  Loss at epoch  20  after  736  of  1845  examples is  0.84900760019
+  Loss at epoch  20  after  883  of  1845  examples is  0.849905681975
+  Loss at epoch  20  after  1030  of  1845  examples is  0.846175863731
+  Loss at epoch  20  after  1177  of  1845  examples is  0.843859281141
+  Loss at epoch  20  after  1324  of  1845  examples is  0.844541104133
+  Loss at epoch  20  after  1471  of  1845  examples is  0.841731244532
+  Loss at epoch  20  after  1618  of  1845  examples is  0.842115935127
+  Loss at epoch  20  after  1765  of  1845  examples is  0.843648337237
+KL Loss after epoch  20  :  8.96168426729e-08
+Reconstruction Loss after epoch  20  :  0.00040770093643
+Total Loss:  0.843425761581
+           Test Accuracy:   0.521951219512
+  Loss at epoch  21  after  148  of  1845  examples is  0.838252673681
+  Loss at epoch  21  after  295  of  1845  examples is  0.829649303929
+  Loss at epoch  21  after  442  of  1845  examples is  0.833936487792
+  Loss at epoch  21  after  589  of  1845  examples is  0.836390047001
+  Loss at epoch  21  after  736  of  1845  examples is  0.831890073321
+  Loss at epoch  21  after  883  of  1845  examples is  0.831379974685
+  Loss at epoch  21  after  1030  of  1845  examples is  0.832420103411
+  Loss at epoch  21  after  1177  of  1845  examples is  0.832395387081
+  Loss at epoch  21  after  1324  of  1845  examples is  0.834776539097
+  Loss at epoch  21  after  1471  of  1845  examples is  0.834269188076
+  Loss at epoch  21  after  1618  of  1845  examples is  0.833653477088
+  Loss at epoch  21  after  1765  of  1845  examples is  0.835436691643
+KL Loss after epoch  21  :  4.7054089291e-07
+Reconstruction Loss after epoch  21  :  0.000422237301699
+Total Loss:  0.836411641001
+           Test Accuracy:   0.473170731707
+  Loss at epoch  22  after  148  of  1845  examples is  0.850068199473
+  Loss at epoch  22  after  295  of  1845  examples is  0.834836465019
+  Loss at epoch  22  after  442  of  1845  examples is  0.8276977415
+  Loss at epoch  22  after  589  of  1845  examples is  0.824799199461
+  Loss at epoch  22  after  736  of  1845  examples is  0.828715671745
+  Loss at epoch  22  after  883  of  1845  examples is  0.826510674889
+  Loss at epoch  22  after  1030  of  1845  examples is  0.826648694335
+  Loss at epoch  22  after  1177  of  1845  examples is  0.830378556616
+  Loss at epoch  22  after  1324  of  1845  examples is  0.830935094337
+  Loss at epoch  22  after  1471  of  1845  examples is  0.831331982368
+  Loss at epoch  22  after  1618  of  1845  examples is  0.831992954605
+  Loss at epoch  22  after  1765  of  1845  examples is  0.83247807036
+KL Loss after epoch  22  :  4.44936080718e-07
+Reconstruction Loss after epoch  22  :  0.000411994279012
+Total Loss:  0.831584271153
+           Test Accuracy:   0.526829268293
+  Loss at epoch  23  after  148  of  1845  examples is  0.799568093306
+  Loss at epoch  23  after  295  of  1845  examples is  0.832074767654
+  Loss at epoch  23  after  442  of  1845  examples is  0.829385566765
+  Loss at epoch  23  after  589  of  1845  examples is  0.822705970151
+  Loss at epoch  23  after  736  of  1845  examples is  0.836365658871
+  Loss at epoch  23  after  883  of  1845  examples is  0.83588656962
+  Loss at epoch  23  after  1030  of  1845  examples is  0.833277314786
+  Loss at epoch  23  after  1177  of  1845  examples is  0.832534933657
+  Loss at epoch  23  after  1324  of  1845  examples is  0.830665021054
+  Loss at epoch  23  after  1471  of  1845  examples is  0.831419259127
+  Loss at epoch  23  after  1618  of  1845  examples is  0.830844894107
+  Loss at epoch  23  after  1765  of  1845  examples is  0.830010081959
+KL Loss after epoch  23  :  7.4747970019e-08
+Reconstruction Loss after epoch  23  :  0.000411298654707
+Total Loss:  0.829256030811
+           Test Accuracy:   0.507317073171
+  Loss at epoch  24  after  148  of  1845  examples is  0.839979822168
+  Loss at epoch  24  after  295  of  1845  examples is  0.831246732049
+  Loss at epoch  24  after  442  of  1845  examples is  0.833242050393
+  Loss at epoch  24  after  589  of  1845  examples is  0.833965817008
+  Loss at epoch  24  after  736  of  1845  examples is  0.834904674846
+  Loss at epoch  24  after  883  of  1845  examples is  0.825645181898
+  Loss at epoch  24  after  1030  of  1845  examples is  0.822777987221
+  Loss at epoch  24  after  1177  of  1845  examples is  0.824923600853
+  Loss at epoch  24  after  1324  of  1845  examples is  0.826370299943
+  Loss at epoch  24  after  1471  of  1845  examples is  0.828132426431
+  Loss at epoch  24  after  1618  of  1845  examples is  0.824652327485
+  Loss at epoch  24  after  1765  of  1845  examples is  0.82524132374
+KL Loss after epoch  24  :  1.29767642119e-07
+Reconstruction Loss after epoch  24  :  0.000439550223097
+Total Loss:  0.825324994804
+           Test Accuracy:   0.482926829268
+  Loss at epoch  25  after  148  of  1845  examples is  0.788380736435
+  Loss at epoch  25  after  295  of  1845  examples is  0.816983896999
+  Loss at epoch  25  after  442  of  1845  examples is  0.809775479644
+  Loss at epoch  25  after  589  of  1845  examples is  0.807969199174
+  Loss at epoch  25  after  736  of  1845  examples is  0.820904909755
+  Loss at epoch  25  after  883  of  1845  examples is  0.819400036321
+  Loss at epoch  25  after  1030  of  1845  examples is  0.817702787015
+  Loss at epoch  25  after  1177  of  1845  examples is  0.820443247726
+  Loss at epoch  25  after  1324  of  1845  examples is  0.822449400031
+  Loss at epoch  25  after  1471  of  1845  examples is  0.824103105563
+  Loss at epoch  25  after  1618  of  1845  examples is  0.823350873549
+  Loss at epoch  25  after  1765  of  1845  examples is  0.823511449777
+KL Loss after epoch  25  :  4.32020664732e-08
+Reconstruction Loss after epoch  25  :  0.00040295529598
+Total Loss:  0.822400109255
+           Test Accuracy:   0.492682926829
+  Loss at epoch  26  after  148  of  1845  examples is  0.800042471773
+  Loss at epoch  26  after  295  of  1845  examples is  0.799690416506
+  Loss at epoch  26  after  442  of  1845  examples is  0.806877525818
+  Loss at epoch  26  after  589  of  1845  examples is  0.811194164036
+  Loss at epoch  26  after  736  of  1845  examples is  0.814435956514
+  Loss at epoch  26  after  883  of  1845  examples is  0.811885090606
+  Loss at epoch  26  after  1030  of  1845  examples is  0.820091430597
+  Loss at epoch  26  after  1177  of  1845  examples is  0.822394982575
+  Loss at epoch  26  after  1324  of  1845  examples is  0.818351008966
+  Loss at epoch  26  after  1471  of  1845  examples is  0.819532372893
+  Loss at epoch  26  after  1618  of  1845  examples is  0.817848220965
+  Loss at epoch  26  after  1765  of  1845  examples is  0.816367308479
+KL Loss after epoch  26  :  1.86191865708e-07
+Reconstruction Loss after epoch  26  :  0.000432439382518
+Total Loss:  0.818273811757
+           Test Accuracy:   0.468292682927
+  Loss at epoch  27  after  148  of  1845  examples is  0.823874617348
+  Loss at epoch  27  after  295  of  1845  examples is  0.831281182119
+  Loss at epoch  27  after  442  of  1845  examples is  0.825830369918
+  Loss at epoch  27  after  589  of  1845  examples is  0.821763536622
+  Loss at epoch  27  after  736  of  1845  examples is  0.814659508674
+  Loss at epoch  27  after  883  of  1845  examples is  0.819765022967
+  Loss at epoch  27  after  1030  of  1845  examples is  0.824081742648
+  Loss at epoch  27  after  1177  of  1845  examples is  0.822599531435
+  Loss at epoch  27  after  1324  of  1845  examples is  0.826166730363
+  Loss at epoch  27  after  1471  of  1845  examples is  0.824960819886
+  Loss at epoch  27  after  1618  of  1845  examples is  0.821388065299
+  Loss at epoch  27  after  1765  of  1845  examples is  0.819917614973
+KL Loss after epoch  27  :  1.03468626318e-07
+Reconstruction Loss after epoch  27  :  0.000408318228737
+Total Loss:  0.819528362894
+           Test Accuracy:   0.507317073171
+  Loss at epoch  28  after  148  of  1845  examples is  0.807885434579
+  Loss at epoch  28  after  295  of  1845  examples is  0.81702303644
+  Loss at epoch  28  after  442  of  1845  examples is  0.827153456157
+  Loss at epoch  28  after  589  of  1845  examples is  0.819823625537
+  Loss at epoch  28  after  736  of  1845  examples is  0.827535409399
+  Loss at epoch  28  after  883  of  1845  examples is  0.826231528517
+  Loss at epoch  28  after  1030  of  1845  examples is  0.827162198534
+  Loss at epoch  28  after  1177  of  1845  examples is  0.82610205421
+  Loss at epoch  28  after  1324  of  1845  examples is  0.822691932906
+  Loss at epoch  28  after  1471  of  1845  examples is  0.822462265788
+  Loss at epoch  28  after  1618  of  1845  examples is  0.818567917322
+  Loss at epoch  28  after  1765  of  1845  examples is  0.817213899015
+KL Loss after epoch  28  :  2.66235156281e-07
+Reconstruction Loss after epoch  28  :  0.000432495822886
+Total Loss:  0.815040440594
+           Test Accuracy:   0.526829268293
+  Loss at epoch  29  after  148  of  1845  examples is  0.867366597862
+  Loss at epoch  29  after  295  of  1845  examples is  0.842761389684
+  Loss at epoch  29  after  442  of  1845  examples is  0.825621001321
+  Loss at epoch  29  after  589  of  1845  examples is  0.82041832405
+  Loss at epoch  29  after  736  of  1845  examples is  0.815228592361
+  Loss at epoch  29  after  883  of  1845  examples is  0.815222888814
+  Loss at epoch  29  after  1030  of  1845  examples is  0.817423504244
+  Loss at epoch  29  after  1177  of  1845  examples is  0.815839282162
+  Loss at epoch  29  after  1324  of  1845  examples is  0.810049553112
+  Loss at epoch  29  after  1471  of  1845  examples is  0.812422234537
+  Loss at epoch  29  after  1618  of  1845  examples is  0.811398530625
+  Loss at epoch  29  after  1765  of  1845  examples is  0.813646256924
+KL Loss after epoch  29  :  1.09377429131e-07
+Reconstruction Loss after epoch  29  :  0.0003987861997
+Total Loss:  0.812850164276
+           Test Accuracy:   0.473170731707

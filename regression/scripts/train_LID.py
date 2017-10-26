@@ -6,7 +6,7 @@ import numpy as np
 from math import sqrt
 from sklearn import preprocessing
 import random
-from sklearn.metrics import mean_squared_error, accuracy_score
+from sklearn.metrics import mean_squared_error, accuracy_score, confusion_matrix
 
 arch = 'file_LID'
 src_files_english = os.listdir('../data/english/cleaned')
@@ -15,7 +15,7 @@ src_files_miami = os.listdir('../data/miami/cleaned')
 
 files = []
 labels = []
-limit = 1000
+limit = 50000
 for (fc,file) in enumerate(src_files_english):
   if fc < limit: 
     files.append('../data/english/cleaned/' + file)
@@ -46,15 +46,16 @@ for d in data:
 num_toprint = int( 0.08 * len(train))
 
 # Hyperparameters for the AE
-units_input = 13
+units_input = 39
 units_hidden = int(16)
 units_output = 3
 
 
 # Instantiate AE and define the loss
 m = dy.Model()
-ae = AutoEncoder_file(m, units_input, units_hidden, units_output, dy.rectify)
+ae = VariationalAutoEncoder_file(m, units_input, units_hidden, units_output, dy.rectify)
 trainer = dy.AdamTrainer(m)
+update_params = 32
 
 c = len(train)
 # Loop over the training instances and call the AE
@@ -84,16 +85,18 @@ for epoch in range(30):
 
 
       loss.backward()
-      if count % 100 == 1:
+      if count % update_params == 1:
         trainer.update() 
   print "KL Loss after epoch ", epoch , " : ", float(kl_loss.value()/count)
   print "Reconstruction Loss after epoch ", epoch , " : ", float(recons_loss.value()/count)
   print "Total Loss: ", float(train_loss/count)
   y_true = []
   y_pred = []
+
   for (ft,lt) in test:
     label_predicted = ae.predict_label(ft)
     #print np.argmax(label_predicted.value()), ft
     y_true.append(lt)
     y_pred.append(np.argmax(label_predicted.value()))
   print "           Test Accuracy:  ", accuracy_score(y_true, y_pred)   
+  print "           Confusion Matrix: " , confusion_matrix(y_true, y_pred)
