@@ -23,3 +23,8 @@ do
  done
 done 
 
+./local/get_fbanks_ascii.sh train
+./local/get_fbanks_ascii.sh devel
+./local/get_fbanks_ascii.sh test
+
+
