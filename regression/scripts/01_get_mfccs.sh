@@ -22,9 +22,3 @@ do
    cat ../data/${lang}/raw/${n}.mfcc | sed '/\[$/d' | sed 's/]//g' > ../data/${lang}/cleaned/${n}.mfcc
  done
 done 
-
-./local/get_fbanks_ascii.sh train
-./local/get_fbanks_ascii.sh devel
-./local/get_fbanks_ascii.sh test
-
-
